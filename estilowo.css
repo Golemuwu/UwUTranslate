@@ -1,0 +1,91 @@
+/*
+
+#salida{
+    display: inline-block;
+    width: 35vw;
+    height: 50vh;
+    border: 2px solid #000;
+    margin-top: 25vh;
+}
+
+#cuerpo{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#entrada{
+    
+    margin-left: 10vw;
+    height: 50vh;
+    width: 35vw;
+    
+}
+
+#boton{
+    width: 7vw;
+}*/
+
+
+/*Buena alternativa 1*/
+
+/*
+#salida{
+    display: inline-block;
+    width: 65vw;
+    height: 35vh;
+    border: 2px solid #000;
+}
+
+#entrada{
+    display: inline-block;
+    width: 65vw;
+    height: 35vh;
+    margin-top: 0;
+}
+
+#div-entrada{
+    display: inline-block;
+    width: 65vw;
+    height: 35vh;
+}
+*/
+
+/*Buena alternativa 2*/
+#titulo{
+    margin-top: 12vw;
+    text-align: center;
+}
+
+#salida{
+    display: block;
+    width: 66vw;
+    height: 35vh;
+    border: 2px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#entrada{
+    display: inline-block;
+    width: 66vw;
+    margin-top: 0;
+}
+
+#div-entrada{
+    display: block;
+    width: 66vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#boton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fromTo{
+    text-align: center;
+}
