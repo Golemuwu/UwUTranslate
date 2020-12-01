@@ -4,7 +4,7 @@ function uwuificar(string){
     for(var i =0; i < matriz.length; i++){
         matriz[i] = deLetraAUwu(matriz[i]);
     };
-//uwu
+
     return matriz.join("");
 };
 
@@ -377,4 +377,36 @@ function traducir(){
 
         document.getElementById("salida-p").innerHTML = output;
     }
+
+    automaticCopy();
+};
+
+function automaticCopy(){
+    //Clipboard.writeText("Owo?");
+
+    //var temp= document.createElement("input");
+
+    var temp= document.createElement("input");
+
+
+
+    document.getElementsByTagName("body")[0].appendChild(temp);
+
+    temp.value=document.getElementById("salida-p").innerHTML;
+    temp.select();
+
+    document.execCommand("copy");
+
+    document.getElementsByTagName("body")[0].removeChild(temp);
+};
+
+
+function deleite(){
+
+
+    document.getElementById("entrada").value = "";
+
+    traducir();
+    
+
 };
