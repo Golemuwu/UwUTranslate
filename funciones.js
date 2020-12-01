@@ -406,7 +406,7 @@ function deleite(){
 
     document.getElementById("entrada").value = "";
 
-    traducir();
+    document.getElementById("salida-p").innerHTML = "";
     
 
 };
